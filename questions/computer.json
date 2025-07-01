@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "q": "CPU का पूरा नाम क्या है?",
+    "options": ["Central Performance Unit", "Central Processing Unit", "Computer Primary Unit", "Control Processing Unit"],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "id": 2,
+    "q": "RAM का कार्य क्या होता है?",
+    "options": ["स्थायी स्टोरेज", "प्रिंटिंग", "अस्थायी मेमोरी", "नेटवर्किंग"],
+    "answer": "अस्थायी मेमोरी"
+  },
+  {
+    "id": 3,
+    "q": "हार्ड डिस्क किस प्रकार की डिवाइस है?",
+    "options": ["इनपुट", "आउटपुट", "स्टोरेज", "प्रोसेसिंग"],
+    "answer": "स्टोरेज"
+  },
+  {
+    "id": 4,
+    "q": "कंप्यूटर का मस्तिष्क किसे कहते हैं?",
+    "options": ["RAM", "CPU", "Mouse", "Monitor"],
+    "answer": "CPU"
+  },
+  {
+    "id": 5,
+    "q": "कंप्यूटर के पहले पीढ़ी में किसका उपयोग किया गया था?",
+    "options": ["IC", "माइक्रोप्रोसेसर", "वैक्यूम ट्यूब", "ट्रांजिस्टर"],
+    "answer": "वैक्यूम ट्यूब"
+  },
+  {
+    "id": 6,
+    "q": "WWW का अर्थ क्या है?",
+    "options": ["World Wide Web", "World Web Wide", "Wide World Web", "Web Wide World"],
+    "answer": "World Wide Web"
+  },
+  {
+    "id": 7,
+    "q": "कंप्यूटर का आविष्कार किसने किया था?",
+    "options": ["चार्ल्स बैबेज", "बिल गेट्स", "एडविन हबल", "थॉमस एडिसन"],
+    "answer": "चार्ल्स बैबेज"
+  },
+  {
+    "id": 8,
+    "q": "माउस किस प्रकार की डिवाइस है?",
+    "options": ["आउटपुट", "प्रोसेसिंग", "स्टोरेज", "इनपुट"],
+    "answer": "इनपुट"
+  },
+  {
+    "id": 9,
+    "q": "कंप्यूटर में 'Ctrl + C' का क्या कार्य है?",
+    "options": ["कट", "कॉपी", "पेस्ट", "रिफ्रेश"],
+    "answer": "कॉपी"
+  },
+  {
+    "id": 10,
+    "q": "इंटरनेट से जुड़े कंप्यूटर को क्या कहते हैं?",
+    "options": ["नेटवर्क", "यूजर", "होस्ट", "डिवाइस"],
+    "answer": "होस्ट"
+  },
+  {
+    "id": 11,
+    "q": "ईमेल का पूरा नाम क्या है?",
+    "options": ["Electronic Mail", "Easy Mail", "Efficient Mail", "Express Mail"],
+    "answer": "Electronic Mail"
+  },
+  {
+    "id": 12,
+    "q": "IP का अर्थ क्या है?",
+    "options": ["Internet Protocol", "Internal Protocol", "Input Protocol", "Integrated Process"],
+    "answer": "Internet Protocol"
+  },
+  {
+    "id": 13,
+    "q": "एक्सेल किस प्रकार का सॉफ्टवेयर है?",
+    "options": ["वर्ड प्रोसेसर", "स्प्रेडशीट", "ब्राउज़र", "ऑडियो प्लेयर"],
+    "answer": "स्प्रेडशीट"
+  },
+  {
+    "id": 14,
+    "q": "USB का पूरा नाम क्या है?",
+    "options": ["Universal Serial Bus", "Unified Signal Base", "User Smart Base", "Universal Smart Bus"],
+    "answer": "Universal Serial Bus"
+  },
+  {
+    "id": 15,
+    "q": "Ctrl + V किसके लिए उपयोग होता है?",
+    "options": ["कॉपी", "पेस्ट", "कट", "डिलीट"],
+    "answer": "पेस्ट"
+  },
+  {
+    "id": 16,
+    "q": "सर्च इंजन का उदाहरण क्या है?",
+    "options": ["Google", "Facebook", "Gmail", "YouTube"],
+    "answer": "Google"
+  },
+  {
+    "id": 17,
+    "q": "कंप्यूटर में डेटा को स्थायी रूप से कहाँ संग्रहित किया जाता है?",
+    "options": ["RAM", "ROM", "Hard Disk", "Cache"],
+    "answer": "Hard Disk"
+  },
+  {
+    "id": 18,
+    "q": "किस सॉफ्टवेयर से प्रेजेंटेशन बनाया जाता है?",
+    "options": ["MS Word", "MS Excel", "MS PowerPoint", "MS Access"],
+    "answer": "MS PowerPoint"
+  },
+  {
+    "id": 19,
+    "q": "HTML का प्रयोग किसके लिए होता है?",
+    "options": ["वेबपेज बनाने", "गाने सुनने", "वीडियो प्ले करने", "गेम खेलने"],
+    "answer": "वेबपेज बनाने"
+  },
+  {
+    "id": 20,
+    "q": "Ctrl + Z का कार्य क्या है?",
+    "options": ["पुनः करें", "हटा दें", "Undo करें", "Paste करें"],
+    "answer": "Undo करें"
+  },
+  {
+    "id": 21,
+    "q": "सिस्टम सॉफ्टवेयर का उदाहरण क्या है?",
+    "options": ["MS Word", "Photoshop", "Windows", "Excel"],
+    "answer": "Windows"
+  },
+  {
+    "id": 22,
+    "q": "कंप्यूटर की भाषा को क्या कहते हैं?",
+    "options": ["उपभाषा", "मशीन भाषा", "प्राकृतिक भाषा", "हाइपर भाषा"],
+    "answer": "मशीन भाषा"
+  },
+  {
+    "id": 23,
+    "q": "Bit का पूरा नाम क्या है?",
+    "options": ["Binary Term", "Binary Table", "Binary Digit", "Byte Index"],
+    "answer": "Binary Digit"
+  },
+  {
+    "id": 24,
+    "q": "URL का पूरा नाम क्या है?",
+    "options": ["Uniform Resource Locator", "Universal Reading Locator", "Unified Router Link", "User Reference Line"],
+    "answer": "Uniform Resource Locator"
+  },
+  {
+    "id": 25,
+    "q": "LAN का मतलब क्या है?",
+    "options": ["Local Access Network", "Large Area Network", "Local Area Network", "Limited Area Net"],
+    "answer": "Local Area Network"
+  }
+]

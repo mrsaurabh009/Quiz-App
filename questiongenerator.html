@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Question Generator + Editor</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; }
+    h1 { color: #333; }
+    label { display: block; margin-top: 1rem; }
+    input, textarea, select, button {
+      width: 100%; padding: 0.5rem; margin-top: 0.5rem;
+      border: 1px solid #ccc; border-radius: 5px;
+    }
+    .question-box, .uploader-box {
+      background: #fff; padding: 1rem; border-radius: 8px;
+      margin-top: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .question-list { margin-top: 2rem; }
+    pre { background: #eef; padding: 1rem; overflow-x: auto; }
+    .download-btn { margin-top: 1rem; background: #007bff; color: #fff; border: none; }
+  </style>
+</head>
+<body>
+  <h1>🧠 Quiz Question Generator + Editor</h1>
+
+  <div class="uploader-box">
+    <label>📤 Upload existing JSON file to edit</label>
+    <input type="file" id="fileInput" accept=".json" onchange="loadFile(event)" />
+  </div>
+
+  <div class="question-box">
+    <label>Subject</label>
+    <select id="subject">
+      <option value="gk">General Knowledge</option>
+      <option value="science">Science</option>
+      <option value="computer">Computer Fundamentals</option>
+      <option value="english">English Grammar</option>
+    </select>
+
+    <label>Question</label>
+    <textarea id="question" rows="3"></textarea>
+
+    <label>Options (one per line)</label>
+    <textarea id="options" rows="4"></textarea>
+
+    <label>Correct Answer (must match one option exactly)</label>
+    <input type="text" id="answer" />
+
+    <button onclick="addQuestion()">➕ Add Question</button>
+  </div>
+
+  <div class="question-list">
+    <h2>📋 Current Questions</h2>
+    <pre id="output">[]</pre>
+    <button class="download-btn" onclick="downloadJSON()">⬇️ Download JSON</button>
+  </div>
+
+  <script>
+    let questions = [];
+
+    function loadFile(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          const loaded = JSON.parse(e.target.result);
+          questions = loaded.map(q => {
+            if (!q.id) {
+              q.id = `${document.getElementById('subject').value}-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+            }
+            return q;
+          });
+          document.getElementById('output').textContent = JSON.stringify(questions, null, 2);
+          alert("Questions loaded successfully!");
+        } catch (err) {
+          alert("Invalid JSON file.");
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function addQuestion() {
+      const subject = document.getElementById('subject').value;
+      const question = document.getElementById('question').value.trim();
+      const options = document.getElementById('options').value.trim().split('\n').filter(o => o);
+      const answer = document.getElementById('answer').value.trim();
+
+      if (!question || options.length < 2 || !answer || !options.includes(answer)) {
+        alert("Please fill out all fields correctly and ensure the answer matches one of the options.");
+        return;
+      }
+
+      const id = `${subject}-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+
+      const newQuestion = { id, q: question, options, answer };
+      questions.push(newQuestion);
+      document.getElementById('output').textContent = JSON.stringify(questions, null, 2);
+
+      document.getElementById('question').value = '';
+      document.getElementById('options').value = '';
+      document.getElementById('answer').value = '';
+    }
+
+    function downloadJSON() {
+      const blob = new Blob([JSON.stringify(questions, null, 2)], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      const subject = document.getElementById('subject').value;
+      link.download = `${subject}.json`;
+      link.click();
+    }
+  </script>
+</body>
+</html>

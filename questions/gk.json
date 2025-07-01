@@ -1,0 +1,302 @@
+[
+  {
+    "id": "gk-001",
+    "q": "What is the capital of India?",
+    "options": ["Delhi", "Mumbai", "Kolkata", "Chennai"],
+    "answer": "Delhi"
+  },
+  {
+    "id": "gk-002",
+    "q": "Who wrote the Indian national anthem?",
+    "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Mahatma Gandhi", "Jawaharlal Nehru"],
+    "answer": "Rabindranath Tagore"
+  },
+  {
+    "id": "gk-003",
+    "q": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "Mars"
+  },
+  {
+    "id": "gk-004",
+    "q": "Which river is the longest in the world?",
+    "options": ["Amazon", "Nile", "Ganges", "Yangtze"],
+    "answer": "Nile"
+  },
+  {
+    "id": "gk-005",
+    "q": "In which year did India gain independence?",
+    "options": ["1945", "1946", "1947", "1948"],
+    "answer": "1947"
+  },
+  {
+    "id": "gk-006",
+    "q": "What is the national animal of India?",
+    "options": ["Elephant", "Tiger", "Lion", "Peacock"],
+    "answer": "Tiger"
+  },
+  {
+    "id": "gk-007",
+    "q": "Which is the smallest continent in the world?",
+    "options": ["Australia", "Europe", "Antarctica", "Asia"],
+    "answer": "Australia"
+  },
+  {
+    "id": "gk-008",
+    "q": "What is the currency of Japan?",
+    "options": ["Yuan", "Dollar", "Yen", "Won"],
+    "answer": "Yen"
+  },
+  {
+    "id": "gk-009",
+    "q": "Which state is known as the 'Spice Garden of India'?",
+    "options": ["Kerala", "Assam", "Karnataka", "Tamil Nadu"],
+    "answer": "Kerala"
+  },
+  {
+    "id": "gk-010",
+    "q": "Who was the first President of India?",
+    "options": ["Dr. Rajendra Prasad", "Sardar Patel", "Lal Bahadur Shastri", "Jawaharlal Nehru"],
+    "answer": "Dr. Rajendra Prasad"
+  },
+  {
+    "id": "gk-011",
+    "q": "Which is the tallest mountain in the world?",
+    "options": ["K2", "Kangchenjunga", "Mount Everest", "Makalu"],
+    "answer": "Mount Everest"
+  },
+  {
+    "id": "gk-012",
+    "q": "Who discovered gravity?",
+    "options": ["Albert Einstein", "Galileo", "Isaac Newton", "Stephen Hawking"],
+    "answer": "Isaac Newton"
+  },
+  {
+    "id": "gk-013",
+    "q": "What is the national sport of India?",
+    "options": ["Cricket", "Hockey", "Football", "Kabaddi"],
+    "answer": "Hockey"
+  },
+  {
+    "id": "gk-014",
+    "q": "Which country gifted the Statue of Liberty to the USA?",
+    "options": ["Germany", "Italy", "France", "UK"],
+    "answer": "France"
+  },
+  {
+    "id": "gk-015",
+    "q": "Which festival is known as the festival of lights?",
+    "options": ["Holi", "Diwali", "Eid", "Christmas"],
+    "answer": "Diwali"
+  },
+  {
+    "id": "gk-016",
+    "q": "Which gas do plants use for photosynthesis?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "id": "gk-017",
+    "q": "Which organ purifies blood in the human body?",
+    "options": ["Liver", "Heart", "Kidney", "Lungs"],
+    "answer": "Kidney"
+  },
+  {
+    "id": "gk-018",
+    "q": "Which country is the largest by area?",
+    "options": ["Canada", "China", "USA", "Russia"],
+    "answer": "Russia"
+  },
+  {
+    "id": "gk-019",
+    "q": "What is the national flower of India?",
+    "options": ["Rose", "Lotus", "Sunflower", "Marigold"],
+    "answer": "Lotus"
+  },
+  {
+    "id": "gk-020",
+    "q": "Who is known as the Missile Man of India?",
+    "options": ["Vikram Sarabhai", "Homi Bhabha", "A. P. J. Abdul Kalam", "Rakesh Sharma"],
+    "answer": "A. P. J. Abdul Kalam"
+  },
+  {
+    "id": "gk-021",
+    "q": "Which metal is liquid at room temperature?",
+    "options": ["Mercury", "Aluminum", "Gold", "Silver"],
+    "answer": "Mercury"
+  },
+  {
+    "id": "gk-022",
+    "q": "Who invented the telephone?",
+    "options": ["Alexander Graham Bell", "Edison", "Tesla", "Marconi"],
+    "answer": "Alexander Graham Bell"
+  },
+  {
+    "id": "gk-023",
+    "q": "Which planet has a ring system?",
+    "options": ["Earth", "Saturn", "Venus", "Mars"],
+    "answer": "Saturn"
+  },
+  {
+    "id": "gk-024",
+    "q": "Which Indian city is known as the 'Pink City'?",
+    "options": ["Jaipur", "Jodhpur", "Agra", "Udaipur"],
+    "answer": "Jaipur"
+  },
+  {
+    "id": "gk-025",
+    "q": "Who is the author of 'Discovery of India'?",
+    "options": ["Tagore", "Nehru", "Ambedkar", "Gandhi"],
+    "answer": "Nehru"
+  },
+  {
+    "id": "gk-026",
+    "q": "Where is the Indian Parliament located?",
+    "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+    "answer": "New Delhi"
+  },
+  {
+    "id": "gk-027",
+    "q": "Which Indian state has the longest coastline?",
+    "options": ["Maharashtra", "Tamil Nadu", "Gujarat", "Andhra Pradesh"],
+    "answer": "Gujarat"
+  },
+  {
+    "id": "gk-028",
+    "q": "Which is the highest civilian award in India?",
+    "options": ["Padma Shri", "Padma Bhushan", "Padma Vibhushan", "Bharat Ratna"],
+    "answer": "Bharat Ratna"
+  },
+  {
+    "id": "gk-029",
+    "q": "What is the full form of GDP?",
+    "options": ["Gross Domestic Product", "Gross Data Processing", "Great Domestic Production", "General Demographic Potential"],
+    "answer": "Gross Domestic Product"
+  },
+  {
+    "id": "gk-030",
+    "q": "Which Mughal emperor built the Taj Mahal?",
+    "options": ["Akbar", "Jahangir", "Shah Jahan", "Babur"],
+    "answer": "Shah Jahan"
+  },
+  {
+    "id": "gk-031",
+    "q": "Which Indian leader is known as Iron Man of India?",
+    "options": ["Nehru", "Sardar Vallabhbhai Patel", "Lal Bahadur Shastri", "Rajendra Prasad"],
+    "answer": "Sardar Vallabhbhai Patel"
+  },
+  {
+    "id": "gk-032",
+    "q": "Which Indian state is known as the Land of Five Rivers?",
+    "options": ["Punjab", "Haryana", "Bihar", "Rajasthan"],
+    "answer": "Punjab"
+  },
+  {
+    "id": "gk-033",
+    "q": "Which Indian scientist won Nobel Prize for Physics?",
+    "options": ["Homi Bhabha", "C. V. Raman", "Vikram Sarabhai", "A. P. J. Abdul Kalam"],
+    "answer": "C. V. Raman"
+  },
+  {
+    "id": "gk-034",
+    "q": "What is the currency of the United Kingdom?",
+    "options": ["Euro", "Dollar", "Pound Sterling", "Franc"],
+    "answer": "Pound Sterling"
+  },
+  {
+    "id": "gk-035",
+    "q": "Which planet is closest to the Sun?",
+    "options": ["Mercury", "Venus", "Earth", "Mars"],
+    "answer": "Mercury"
+  },
+  {
+    "id": "gk-036",
+    "q": "Which is the largest freshwater lake in India?",
+    "options": ["Dal Lake", "Wular Lake", "Chilika Lake", "Sambhar Lake"],
+    "answer": "Wular Lake"
+  },
+  {
+    "id": "gk-037",
+    "q": "Which element has the chemical symbol 'O'?",
+    "options": ["Osmium", "Oxygen", "Gold", "Iron"],
+    "answer": "Oxygen"
+  },
+  {
+    "id": "gk-038",
+    "q": "Which is the fastest animal on land?",
+    "options": ["Lion", "Tiger", "Cheetah", "Horse"],
+    "answer": "Cheetah"
+  },
+  {
+    "id": "gk-039",
+    "q": "Who was the first man to walk on the Moon?",
+    "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+    "answer": "Neil Armstrong"
+  },
+  {
+    "id": "gk-040",
+    "q": "Which state in India is famous for tea production?",
+    "options": ["Kerala", "Assam", "Goa", "Rajasthan"],
+    "answer": "Assam"
+  },
+  {
+    "id": "gk-041",
+    "q": "How many colors are there in the Indian National Flag?",
+    "options": ["3", "4", "5", "2"],
+    "answer": "3"
+  },
+  {
+    "id": "gk-042",
+    "q": "What is the name of India's first satellite?",
+    "options": ["Bhaskar", "Aryabhata", "INSAT-1A", "Rohini"],
+    "answer": "Aryabhata"
+  },
+  {
+    "id": "gk-043",
+    "q": "Which gas is most abundant in Earth's atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Nitrogen"
+  },
+  {
+    "id": "gk-044",
+    "q": "Which country hosted the 2020 Summer Olympics?",
+    "options": ["China", "Brazil", "Japan", "France"],
+    "answer": "Japan"
+  },
+  {
+    "id": "gk-045",
+    "q": "Which Indian cricketer is known as 'The Wall'?",
+    "options": ["Sachin Tendulkar", "Rahul Dravid", "Virat Kohli", "Kapil Dev"],
+    "answer": "Rahul Dravid"
+  },
+  {
+    "id": "gk-046",
+    "q": "Who discovered electricity?",
+    "options": ["Newton", "Faraday", "Edison", "Franklin"],
+    "answer": "Benjamin Franklin"
+  },
+  {
+    "id": "gk-047",
+    "q": "What is the smallest prime number?",
+    "options": ["1", "2", "3", "5"],
+    "answer": "2"
+  },
+  {
+    "id": "gk-048",
+    "q": "Which is the deepest ocean in the world?",
+    "options": ["Atlantic", "Arctic", "Pacific", "Indian"],
+    "answer": "Pacific"
+  },
+  {
+    "id": "gk-049",
+    "q": "Where is the Great Barrier Reef located?",
+    "options": ["India", "South Africa", "Australia", "USA"],
+    "answer": "Australia"
+  },
+  {
+    "id": "gk-050",
+    "q": "Which continent has the most countries?",
+    "options": ["Asia", "Europe", "Africa", "South America"],
+    "answer": "Africa"
+  }
+]

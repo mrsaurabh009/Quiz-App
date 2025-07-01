@@ -1,0 +1,139 @@
+/* Base layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+  max-width: 450px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #05d6fb;
+}
+
+/* Labels */
+label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  display: block;
+}
+
+/* Inputs and Dropdowns */
+select,
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #eee;
+  color: #333;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #05d6fb;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: #04bcd3;
+  transform: translateY(-1px);
+}
+
+button:active {
+  background: #03a5b8;
+  transform: scale(0.98);
+}
+
+/* Quiz Options */
+.option {
+  background: #1f2a38;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 1rem;
+}
+
+.option:hover {
+  background: #27394e;
+  transform: translateX(5px);
+}
+
+.option:active {
+  background: #32475c;
+  transform: scale(0.97);
+}
+
+/* Scoreboard + Timer */
+#score,
+#timer {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #05d6fb;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Results section */
+#resultBox {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#finalScore {
+  font-size: 1.5rem;
+  color: #ffd700;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .container {
+    padding: 1.2rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Welcome to the Smart Quiz App</h1>
+    <form id="quizSetupForm">
+      <label for="subject">Choose a Subject:</label>
+      <select id="subject" required>
+        <option value="">--Select--</option>
+        <option value="gk">General Knowledge</option>
+        <option value="science">Science</option>
+        <option value="computer">Computer Fundamentals</option>
+        <option value="english">English Grammar</option>
+      </select>
+
+      <label for="numQuestions">Number of Questions:</label>
+      <input type="number" id="numQuestions" placeholder="e.g., 10" min="1" max="50" required>
+
+      <button type="submit">Start Quiz</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

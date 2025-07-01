@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz in Progress | Smart Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Quiz in Progress</h1>
+
+    <div id="quizBox">
+      <div class="score-timer">
+        <span id="score">Score: 0</span>
+        <span id="timer">Time Left: 00</span>
+      </div>
+
+      <div id="questionBox">
+        <h2 id="questionText">Loading question...</h2>
+        <ul id="optionsList"></ul>
+      </div>
+
+      <button id="nextBtn">Next</button>
+    </div>
+
+    <div id="resultBox" style="display:none;">
+      <h2>✅ Quiz Completed!</h2>
+      <p id="finalScore"></p>
+      <button onclick="location.href='index.html'">Play Again</button>
+    </div>
+  </div>
+
+  <script src="quiz-script.js"></script>
+</body>
+</html>

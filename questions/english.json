@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "q": "Choose the correct verb: She ___ to school every day.",
+    "options": ["go", "goes", "gone", "going"],
+    "answer": "goes"
+  },
+  {
+    "id": 2,
+    "q": "Identify the noun in the sentence: The cat is sleeping.",
+    "options": ["sleeping", "is", "cat", "the"],
+    "answer": "cat"
+  },
+  {
+    "id": 3,
+    "q": "Which word is an adjective? The red ball bounced.",
+    "options": ["red", "ball", "bounced", "The"],
+    "answer": "red"
+  },
+  {
+    "id": 4,
+    "q": "Choose the correct article: I saw ___ elephant.",
+    "options": ["a", "an", "the", "none"],
+    "answer": "an"
+  },
+  {
+    "id": 5,
+    "q": "Select the correct tense: They ___ dinner when I arrived.",
+    "options": ["have", "was having", "were having", "are having"],
+    "answer": "were having"
+  },
+  {
+    "id": 6,
+    "q": "Identify the pronoun: He is my best friend.",
+    "options": ["He", "my", "best", "friend"],
+    "answer": "He"
+  },
+  {
+    "id": 7,
+    "q": "What type of sentence is this? Please close the door.",
+    "options": ["Interrogative", "Exclamatory", "Declarative", "Imperative"],
+    "answer": "Imperative"
+  },
+  {
+    "id": 8,
+    "q": "Fill in the blank: I have lived here ___ five years.",
+    "options": ["since", "in", "for", "from"],
+    "answer": "for"
+  },
+  {
+    "id": 9,
+    "q": "Pick the correct conjunction: I was tired ___ I finished my work.",
+    "options": ["but", "and", "so", "because"],
+    "answer": "but"
+  },
+  {
+    "id": 10,
+    "q": "Which is the passive voice? The cake was eaten by John.",
+    "options": ["The cake was eaten by John.", "John ate the cake.", "John is eating the cake.", "John eats the cake."],
+    "answer": "The cake was eaten by John."
+  },
+  {
+    "id": 11,
+    "q": "Identify the type of adverb: He speaks clearly.",
+    "options": ["Manner", "Time", "Place", "Degree"],
+    "answer": "Manner"
+  },
+  {
+    "id": 12,
+    "q": "Choose the correct form: She is ___ than her sister.",
+    "options": ["tall", "taller", "tallest", "very tall"],
+    "answer": "taller"
+  },
+  {
+    "id": 13,
+    "q": "Pick the correct preposition: The pen is ___ the table.",
+    "options": ["on", "of", "in", "at"],
+    "answer": "on"
+  },
+  {
+    "id": 14,
+    "q": "Which sentence is in future tense?",
+    "options": ["She sings", "She is singing", "She sang", "She will sing"],
+    "answer": "She will sing"
+  },
+  {
+    "id": 15,
+    "q": "Select the correct question tag: You are coming, ___?",
+    "options": ["are you", "aren’t you", "isn't it", "will you"],
+    "answer": "aren’t you"
+  },
+  {
+    "id": 16,
+    "q": "Identify the interjection: Wow! That’s amazing!",
+    "options": ["Wow", "That’s", "amazing", "None"],
+    "answer": "Wow"
+  },
+  {
+    "id": 17,
+    "q": "What is the plural of 'child'?",
+    "options": ["childs", "children", "childes", "childen"],
+    "answer": "children"
+  },
+  {
+    "id": 18,
+    "q": "Choose the correct form of verb: He ___ a book now.",
+    "options": ["read", "reads", "is reading", "reading"],
+    "answer": "is reading"
+  },
+  {
+    "id": 19,
+    "q": "What kind of noun is 'happiness'?",
+    "options": ["Common", "Proper", "Abstract", "Collective"],
+    "answer": "Abstract"
+  },
+  {
+    "id": 20,
+    "q": "Identify the correct sentence.",
+    "options": ["He don't like tea.", "He doesn't likes tea.", "He doesn't like tea.", "He not likes tea."],
+    "answer": "He doesn't like tea."
+  },
+  {
+    "id": 21,
+    "q": "Fill in the blank: She is the ___ girl in the class.",
+    "options": ["tall", "taller", "most tall", "tallest"],
+    "answer": "tallest"
+  },
+  {
+    "id": 22,
+    "q": "Pick the correct synonym of 'begin'.",
+    "options": ["stop", "end", "start", "close"],
+    "answer": "start"
+  },
+  {
+    "id": 23,
+    "q": "Choose the antonym of 'fast'.",
+    "options": ["quick", "slow", "rapid", "speedy"],
+    "answer": "slow"
+  },
+  {
+    "id": 24,
+    "q": "What is the past tense of 'go'?",
+    "options": ["goes", "gone", "went", "going"],
+    "answer": "went"
+  },
+  {
+    "id": 25,
+    "q": "Select the correct spelling.",
+    "options": ["definately", "definitely", "definetly", "definately"],
+    "answer": "definitely"
+  }
+]

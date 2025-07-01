@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bulk ID Adder for Quiz JSON</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f0f0f0; }
+    h1 { font-size: 1.5rem; }
+    input[type="file"] { margin-top: 1rem; }
+    .log { background: #fff; padding: 1rem; margin-top: 1rem; border-radius: 8px; box-shadow: 0 0 5px #ccc; }
+    .log p { margin: 0.5rem 0; }
+  </style>
+</head>
+<body>
+  <h1>📂 Bulk Add IDs to Quiz JSON Files</h1>
+  <input type="file" id="fileInput" multiple accept=".json" />
+  <div class="log" id="logBox"></div>
+
+  <script>
+    document.getElementById('fileInput').addEventListener('change', handleFiles);
+
+    function handleFiles(event) {
+      const files = event.target.files;
+      const logBox = document.getElementById('logBox');
+      logBox.innerHTML = '';
+
+      Array.from(files).forEach(file => {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          try {
+            const data = JSON.parse(e.target.result);
+            const subject = file.name.split('.')[0].toLowerCase();
+
+            let changed = false;
+            const updated = data.map(q => {
+              if (!q.id) {
+                changed = true;
+                q.id = `${subject}-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+              }
+              return q;
+            });
+
+            const blob = new Blob([JSON.stringify(updated, null, 2)], { type: 'application/json' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = `${subject}-with-ids.json`;
+            link.textContent = `⬇️ Download updated ${file.name}`;
+            link.style.display = 'block';
+
+            const msg = document.createElement('p');
+            msg.textContent = changed
+              ? `✅ IDs added to ${file.name}`
+              : `✔️ All questions already had IDs in ${file.name}`;
+            logBox.appendChild(msg);
+            logBox.appendChild(link);
+          } catch (err) {
+            const errMsg = document.createElement('p');
+            errMsg.textContent = `❌ Error parsing ${file.name}`;
+            logBox.appendChild(errMsg);
+          }
+        };
+        reader.readAsText(file);
+      });
+    }
+  </script>
+</body>
+</html>
